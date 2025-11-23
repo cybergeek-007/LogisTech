@@ -17,7 +17,7 @@ This project is built using **Python (Standard Library)** and **SQLite**. It imp
 
 ### **2\. Intelligent Storage (Bin Selection)**
 
-* **Algorithm:** Binary Search ($O(\\log N)$).  
+* **Algorithm:** Binary Search  O(logN).  
 * **Logic:** Instead of scanning millions of bins linearly to find a spot for a package, the system keeps bins sorted by capacity and uses Binary Search to instantly find the "Best Fit" (smallest bin that holds the item).
 
 ### **3\. Logistics Optimization (Truck Loading)**
